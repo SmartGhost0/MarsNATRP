@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <PackageProjectUrl>http://ghofamily.sctstu.com</PackageProjectUrl>
+    <Copyright>2018 GhostFamilyStudio all rights reserved.</Copyright>
+    <Company>GhostFamilyStudio</Company>
+    <Authors>SmartGhost</Authors>
+    <Version>1.0.1</Version>
+    <SignAssembly>false</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <ApplicationIcon />
+    <Win32Resource />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+
+</Project>
