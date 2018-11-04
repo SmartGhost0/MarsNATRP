@@ -8,7 +8,7 @@ How To Use
 
 Run Application
 -----
-   *MarsNATRP_Client
+*MarsNATRP_Client
    
          Windows:Run MarsNATRP_Client.exe {ServerIP} {ServerPrivatePort} {LocalIP} {LocalPort}
          
@@ -20,7 +20,7 @@ Run Application
          
          L/U:MarsNATRP_Client 10.10.10.10 8888 127.0.0.1 80
          
-   *MarsNATRP_Server
+*MarsNATRP_Server
    
          Windows:Run MarsNATRP_Server.exe {ServerIP} {ServerPublicPort} {ServerIP} {ServerPrivatePort}
          
@@ -34,7 +34,7 @@ Run Application
          
 Test
 -----
-   *Test Application
+*Test Application
    
    Try to start a website on local IP:Port and Try to visit PublicIP:Port
       
@@ -42,6 +42,6 @@ Test
    for example: if you run applicaion like the example of "Run Application",you should run website on 127.0.0.1:80 and visit the public server 10.10.10.10:8080
          
          
-   *How does it works 
+*How does it works 
             
    When user connect to 10.10.10.10:8080 the server will listen 10.10.10.10:8888 to accept the connection of client when the client connected the client will connect to 127.0.0.1:80.After this the reverse proxy bridge can create successful.
